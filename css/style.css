@@ -114,6 +114,20 @@ li {
   color: var(--text-grey);
 }
 
+.current {
+  position: relative;
+}
+
+.current:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  height: 4px;
+  background-color: var(--text-blue);
+}
+
 .contacts-icon {
   fill: var(--text-grey);
   margin-right: 10px;
